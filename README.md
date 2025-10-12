@@ -1,1 +1,6 @@
-# DataFlow-Trio-Repo
+## Репозитарий команды DataFlow Trio
+
+### Члены команды:
+##### Аракчиев Анвар Темурланович - Lead Data Engineer
+##### Вдовикин Анатолий Сергеевич - Data Engineer
+##### Арешева Роза Сергеевна - Data Engineer
