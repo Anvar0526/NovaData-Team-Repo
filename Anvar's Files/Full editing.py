@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import random
 
 # Генерируем простые данные
-ids   = [i for _ in range(15)]
+ids   = [i for i in range(15)]
 dates = [datetime.now() - timedelta(days=x) for x in range(15)]
 sales = [random.randint(100, 1000) for _ in range(15)]
 
@@ -19,4 +19,5 @@ data = {
 
 df = pd.DataFrame(data)
 df.to_csv('data/sales_data.csv', index=False)
+print("Сгенерированы тестовые данные!")
 print("Сгенерированы новые тестовые данные!")
