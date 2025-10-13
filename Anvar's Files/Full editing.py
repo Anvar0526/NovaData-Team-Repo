@@ -12,7 +12,7 @@ sales = [random.randint(100, 1000) for _ in range(10)]
 data = {
     'date': dates,
     'sales': sales,
-    'product': ['A', 'B'] * 5
+    'product': ['X', 'D'] * 5
 }
 
 df = pd.DataFrame(data)
