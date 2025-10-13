@@ -14,7 +14,11 @@ data = {
     'id': ids,
     'date': dates,
     'sales': sales,
+<<<<<<< HEAD
+    'product': ['A', 'D'] * 5
+=======
     'product': ['A', 'B'] * 255
+>>>>>>> 1ac4a5cb45899f84689dae991ab971b1b14bc4e4
 }
 
 df = pd.DataFrame(data)
