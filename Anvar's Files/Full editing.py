@@ -4,6 +4,7 @@
 import pandas as pd
 from datetime import datetime, timedelta
 import random
+import tkeeper
 
 # Генерируем простые данные
 ids   = [i for _ in range(15)]
