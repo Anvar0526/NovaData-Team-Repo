@@ -25,3 +25,4 @@ df = pd.DataFrame(data)
 df.to_csv('data/sales_data.csv', index=False)
 print("Сгенерированы тестовые данные!")
 print("Сгенерированы новые тестовые данные!")
+# 123321
