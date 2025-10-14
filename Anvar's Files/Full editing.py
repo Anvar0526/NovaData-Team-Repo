@@ -18,6 +18,7 @@ data = {
     'product': ['A', 'B'] * 255
 }
 
+
 df = pd.DataFrame(data)
 df.to_csv('data/sales_data.csv', index=False)
 print("Сгенерированы новые тестовые данные!")
