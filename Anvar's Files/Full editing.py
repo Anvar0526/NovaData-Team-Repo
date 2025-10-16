@@ -21,7 +21,9 @@ data = {
 >>>>>>> 1ac4a5cb45899f84689dae991ab971b1b14bc4e4
 }
 
+
 df = pd.DataFrame(data)
 df.to_csv('data/sales_data.csv', index=False)
 print("Сгенерированы тестовые данные!")
 print("Сгенерированы новые тестовые данные!")
+# 123321
